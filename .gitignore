@@ -1,3 +1,4 @@
 config.cmd
 log.txt
 rez.txt
+*.restore
