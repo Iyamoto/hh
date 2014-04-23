@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 brand names
 stars
+=======
+brand names
+stars
+>>>>>>> e93e882c690dbf876415068b00949f6114bc81eb
 sports
