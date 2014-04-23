@@ -10,10 +10,24 @@ goto start
 
 :start
 
-rem set rr=%rr%\best64.rule
-set rr=%rr%\passwordspro.rule
+set rr=%rr%\best64.rule
+rem set rr=%rr%\lite.rule
+rem set rr=%rr%\passwordspro.rule
 
-%def% %rr% %ff% %dd%\thematic\facebook-users.dic
+rem %def% %rr% %ff% %dd%\aka.txt
+rem %def% %rr% %ff% %dd%\lang\Polish.dic
+%def% %rr% %ff% %dd%\mail\letters.txt
+
+exit
+
+for /f "delims=" %%a in ('dir /b/s "%dd%\inside\"') do (
+%def% %rr% %ff% %%a
+rem if %errorlevel%==0 goto found
+)
+
+
+exit
+
 %def% %rr% %ff% %dd%\lang\all.dic
 %def% %rr% %ff% %dd%\thematic\facebook.dic
 %def% %rr% %ff% %dd%\john.txt
