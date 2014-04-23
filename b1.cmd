@@ -11,7 +11,7 @@ set cc3=123450QWERTASDZXCB
 
 if exist %ff%.new exit 0
 echo %name% %ff% start >> log.txt
-goto start
+goto start2
 
 :start
 
@@ -34,6 +34,8 @@ goto start1
 %def% %ff% ?d?d?d?d?d
 %def% %ff% ?d?d?d?d?d?d
 %def% %ff% ?d?d?d?d?d?d?d
+
+:start2
 
 %def% -1 %cc0% %ff% ?1?1?1?1?1
 %def% -1 %cc0% %ff% ?1?1?1?1?1?1
