@@ -11,12 +11,20 @@ set cc0=acdeilmnorstph
 set cc1=01239acdeilmnorstp
 set cc2=012345qwertasdzxcb
 set cc3=012345QWERTASDZXCB
+set cc4=1234567890qwertyuiopasdfghjklzxcvbnm-@=
 
 if exist %ff%.new exit 0
 echo %name% %ff% start >> log.txt
 goto start
 
 :start
+
+rem %def7% %ff% -1 ?d?l?u ?1?1?1?1?1?1 %dd%\top.txt
+%def7% %ff% -1 %cc4% -2 ?l?u ?2?1?1?1 %dd%\topplus.txt
+%def7% %ff% -1 %cc4% -2 ?l?u ?2?1?1?1?1 %dd%\topplus.txt
+%def7% %ff% -1 %cc4% -2 ?l?u ?2?1?1?1?1?1 %dd%\topplus.txt
+
+exit
 
 %def6% %ff% -1 ?d?l?u %dd%\letters.txt ?1
 %def6% %ff% -1 ?d?l?u %dd%\letters.txt ?1?1

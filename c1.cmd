@@ -20,10 +20,23 @@ goto start
 :start
 
 rem %def1% %ff% %dd%\set3.txt %dd%\set3.txt
-rem %def1% %ff% %dd%\top.txt %dd%\top.txt
+rem %def1% %ff% %dd%\relevant.txt %dd%\topplus.txt
 rem %def1% %ff% %dd%\relevant.txt %dd%\relevant.txt
+rem %def1% %ff% %dd%\lang\RuTrans.dic %dd%\topplus.txt
 rem %def1% %ff% %dd%\relevant.txt %dd%\top.txt
-%def1% %ff% %dd%\letters.txt %dd%\top.txt
+rem %def1% %ff% %dd%\letters.txt %dd%\top.txt
+
+rem %def1% %ff% %dd%\relevant.txt %dd%\lang\RuTrans.dic
+rem %def1% %ff% %dd%\relevant.txt %dd%\lang\RuKlava.dic
+rem %def1% %ff% %dd%\relevant.txt %dd%\lang\English.dic
+rem %def1% %ff% %dd%\lang\English.dic %dd%\lang\English.dic
+rem %def1% %ff% %dd%\lang\English.dic %dd%\lang\RuTrans.dic
+rem %def1% %ff% %dd%\lang\RuTrans.dic %dd%\lang\RuTrans.dic
+
+rem %def1% %ff% %dd%\runames0.txt %dd%\rufam0.txt
+
+%def1% %ff% %dd%\ru-dom.txt %dd%\lang\RuTrans.dic
+
 
 :start1
 

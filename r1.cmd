@@ -10,13 +10,17 @@ goto start
 
 :start
 
-set rr=%rr%\best64.rule
+rem set rr=%rr%\best64.rule
 rem set rr=%rr%\lite.rule
-rem set rr=%rr%\passwordspro.rule
+set rr=%rr%\passwordspro.rule
+
+rem %def% %rr% %ff% %dd%\surnames.txt
+
+%def% %rr% %ff% %dd%\ru-dom.txt
 
 rem %def% %rr% %ff% %dd%\aka.txt
-rem %def% %rr% %ff% %dd%\lang\Polish.dic
-%def% %rr% %ff% %dd%\mail\letters.txt
+rem %def% %rr% %ff% %dd%\lang\RuTrans.dic
+rem %def% %rr% %ff% %dd%\mail\letters.txt
 
 exit
 
